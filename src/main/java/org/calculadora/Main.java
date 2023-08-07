@@ -12,6 +12,7 @@ public class Main {
 
 
         while (con){
+            System.out.println("El formato para los numeros es: numeros.UnSoloDecimal, ejemplo: 12.3, 1.0");
             num1 = io.inputNum(1);
             op = io.inputOp();
             num2 = io.inputNum(2);
